@@ -7,10 +7,11 @@ Bronze - Silver - Gold Lakehouse architecture.
 The pipeline processes raw JSON and CSV files arriving in the landing zone, incrementally transforming them into high-quality Delta tables suitable for analytics and reporting.
 
 ### 🗂️ Project Structure
-├── 1_setup/
+├── 1_DLT_Demo_Project_Setup/
 │   └── setup_notebook.py
 │
-└── 2_transformative/
+└── 2_DLT_Demo
+    └── transformations/
     ├── bronze_pipeline.dlt
     ├── silver_pipeline.dlt
     └── gold_pipeline.dlt
