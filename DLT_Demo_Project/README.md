@@ -77,3 +77,12 @@ Data quality enforcement through EXPECT constraints and validation rules.
 SCD Type 1 and Type 2 modeling in the Silver layer for real-world scenarios.
 Business-ready Gold tables for visualization and analytics in Power BI or Sigma.
 End-to-end lineage and monitoring via Databricks DLT UI.
+
+![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889772?o=1086316850455532)
+
+![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889773?o=1086316850455532)
+
+![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889771?o=1086316850455532)
+
+[](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889772?o=1086316850455532)
+
