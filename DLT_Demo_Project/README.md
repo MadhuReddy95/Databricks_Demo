@@ -7,6 +7,7 @@ Bronze - Silver - Gold Lakehouse architecture.
 The pipeline processes raw JSON and CSV files arriving in the landing zone, incrementally transforming them into high-quality Delta tables suitable for analytics and reporting.
 
 ### 🗂️ Project Structure
+```
 ├── 1_DLT_Demo_Project_Setup/
 │   └── setup_notebook.py
 │
@@ -15,6 +16,7 @@ The pipeline processes raw JSON and CSV files arriving in the landing zone, incr
     ├── bronze_pipeline.dlt
     ├── silver_pipeline.dlt
     └── gold_pipeline.dlt
+```
 
 ### 1. Setup Folder
 
@@ -70,19 +72,22 @@ Each pipeline is configured for continuous streaming mode, ensuring near real-ti
 - Orders	JSON	SCD Type 1	Maintains latest transactional data
 - Addresses	CSV	SCD Type 2	Preserves history with effective and expiry timestamps
 
-### Key Highlights:
-Streaming ingestion with Auto Loader for continuous processing.
-Declarative transformations using DLT syntax (CREATE OR REFRESH STREAMING TABLE).
-Data quality enforcement through EXPECT constraints and validation rules.
-SCD Type 1 and Type 2 modeling in the Silver layer for real-world scenarios.
-Business-ready Gold tables for visualization and analytics in Power BI or Sigma.
-End-to-end lineage and monitoring via Databricks DLT UI.
+### Project Workflow Screenshots
 
-![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889772?o=1086316850455532)
+**Declarative Pipeline settings for continuous mode:**
 
-![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889773?o=1086316850455532)
+<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image1.png" alt="Pipeline Diagram" width="400" style="margin-right:50px;"/>
 
-![](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889771?o=1086316850455532)
 
-[](https://adb-1086316850455532.12.azuredatabricks.net/editor/files/3626272713889772?o=1086316850455532)
+**Declarative Pipeline DAG in continuous trigger mode**
+<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image2.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
+
+**Azure cloud data load**
+
+<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image3.png" alt="Pipeline Diagram" width="500" style="margin-right:50px;"/>
+
+
+**Declarative Pipeline DAG visualizing the workflow for new incoming data**
+<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image4.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
+
 
