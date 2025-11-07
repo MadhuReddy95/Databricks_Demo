@@ -15,7 +15,12 @@ The pipeline processes raw JSON and CSV files arriving in the landing zone, incr
     └── transformations/
     ├── bronze_pipeline.dlt
     ├── silver_pipeline.dlt
-    └── gold_pipeline.dlt
+    └── gold_pipeline.
+│
+└── Data                                //Contains necessary datasets for the project
+    └── addresses/
+    └── customers/
+    └── orders/
 ```
 
 ### 1. Setup Folder
