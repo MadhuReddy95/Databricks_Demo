@@ -4,14 +4,14 @@
 - Autoloader → Cloud-optimized incremental ingestion
 - Declarative Pipelines (DLT) → Modular, parameterized ETL workflows
 
-
+### Folder Structure 
+```
 Databricks_Demo/
-├── DLT_Demo_Project/                         # Notebooks for declarative Spark pipelines
-├── gizmobox_autoloader_structured_streaming/ # Notebooks demonstrating Autoloader ingestion
-├── gizmobox_structured_streaming/            # Notebooks for standard Spark streaming   
-├── README.md                                 # This file
-
-
+├── DLT_Demo_Project/                         //Notebooks for declarative Spark pipelines
+├── gizmobox_autoloader_structured_streaming/ //Notebooks demonstrating Autoloader ingestion
+├── gizmobox_structured_streaming/            // Notebooks for standard Spark streaming
+├── README.md                                 // This file
+```
 
 A demonstration repository showcasing Databricks projects using Spark and structured streaming pipelines, including declarative pipelines and Autoloader-based ingestion. This repo contains three projects that illustrate best practices for building production-ready pipelines in Databricks.
 
