@@ -81,18 +81,17 @@ Each pipeline is configured for continuous streaming mode, ensuring near real-ti
 
 **Declarative Pipeline settings for continuous mode:**
 
-<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image1.png" alt="Pipeline Diagram" width="400" style="margin-right:50px;"/>
-
+<img src="images/image1.png" alt="Pipeline Diagram" width="400" style="margin-right:50px;"/>
 
 **Declarative Pipeline DAG in continuous trigger mode**
-<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image2.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
+<img src="images/image2.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
 
 **Azure cloud data load**
 
-<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image3.png" alt="Pipeline Diagram" width="500" style="margin-right:50px;"/>
-
+<img src="images/image3.png" alt="Pipeline Diagram" width="500" style="margin-right:50px;"/>
 
 **Declarative Pipeline DAG visualizing the workflow for new incoming data**
-<img src="https://github.com/MadhuReddy95/Databricks_Demo/raw/main/DLT_Demo_Project/image4.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
+<img src="images/image4.png" alt="Pipeline Diagram" width="600" style="margin-right:50px;"/>
+
 
 
