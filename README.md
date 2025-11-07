@@ -1,6 +1,3 @@
-[![Fork me on GitHub](https://img.shields.io/badge/Fork%20me-on%20GitHub-blue)](https://github.com/MadhuReddy95/demobricks_demo/fork)
-
-
 # Databricks: Learn Spark Structured Streaming , Autoloader and Declarative Pipelines(DLT)
 
 - Spark Structured Streaming → Real-time ETL pipelines
@@ -58,3 +55,13 @@ Databricks workspace with Standard or Serverless clusters
 Python 3.x / PySpark 3.x
 Unity Catalog
 Cloud storage access (Azure Data Lake, AWS S3, or GCP)
+
+
+
+## To Fork This Repository
+1. Go to the [demobricks_demo repo](https://github.com/MadhuReddy95/demobricks_demo)
+2. Click the **Fork** button in the top-right corner
+3. Clone your fork locally:
+
+```bash
+git clone https://github.com/<your-username>/demobricks_demo.git
