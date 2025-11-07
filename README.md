@@ -64,4 +64,4 @@ Cloud storage access (Azure Data Lake, AWS S3, or GCP)
 3. Clone your fork locally:
 
 ```bash
-git clone https://github.com/<your-username>/demobricks_demo.git
+git clone https://github.com/MadhuReddy95/demobricks_demo.git
